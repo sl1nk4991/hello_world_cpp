@@ -33,6 +33,7 @@ void operator delete[](void *ptr) noexcept;
 void operator delete(void *ptr, size_t count) noexcept;
 void operator delete[](void *ptr, size_t count) noexcept;
 
+// ENTRY POINT - _start //
 asm(
         ".globl _start\n"
         "_start:\n"
